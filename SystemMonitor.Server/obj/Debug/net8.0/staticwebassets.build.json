@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "bY8/4jSqonED6vgTFY+G3fphptkql75xTuANK1vIgDE=",
+  "Source": "SystemMonitor.Server",
+  "BasePath": "_content/SystemMonitor.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

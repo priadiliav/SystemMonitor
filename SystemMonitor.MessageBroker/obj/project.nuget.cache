@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "uETdyVGgIBk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.MessageBroker\\SystemMonitor.MessageBroker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vitaliip\\.nuget\\packages\\confluent.kafka\\2.8.0\\confluent.kafka.2.8.0.nupkg.sha512",
+    "C:\\Users\\vitaliip\\.nuget\\packages\\librdkafka.redist\\2.8.0\\librdkafka.redist.2.8.0.nupkg.sha512",
+    "C:\\Users\\vitaliip\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.1\\microsoft.extensions.dependencyinjection.9.0.1.nupkg.sha512",
+    "C:\\Users\\vitaliip\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.1\\microsoft.extensions.dependencyinjection.abstractions.9.0.1.nupkg.sha512",
+    "C:\\Users\\vitaliip\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

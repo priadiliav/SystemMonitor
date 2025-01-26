@@ -1,0 +1,17 @@
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.DataService\bin\Debug\net8.0\SystemMonitor.DataService.deps.json
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.DataService\bin\Debug\net8.0\SystemMonitor.DataService.runtimeconfig.json
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.DataService\bin\Debug\net8.0\SystemMonitor.DataService.dll
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.DataService\bin\Debug\net8.0\SystemMonitor.DataService.pdb
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.DataService\bin\Debug\net8.0\SystemMonitor.Models.dll
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.DataService\bin\Debug\net8.0\SystemMonitor.Models.pdb
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.DataService\obj\Debug\net8.0\SystemMonitor.DataService.csproj.AssemblyReference.cache
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.DataService\obj\Debug\net8.0\SystemMonitor.DataService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.DataService\obj\Debug\net8.0\SystemMonitor.DataService.AssemblyInfoInputs.cache
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.DataService\obj\Debug\net8.0\SystemMonitor.DataService.AssemblyInfo.cs
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.DataService\obj\Debug\net8.0\SystemMonitor.DataService.csproj.CoreCompileInputs.cache
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.DataService\obj\Debug\net8.0\SystemMo.57F702BE.Up2Date
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.DataService\obj\Debug\net8.0\SystemMonitor.DataService.dll
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.DataService\obj\Debug\net8.0\refint\SystemMonitor.DataService.dll
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.DataService\obj\Debug\net8.0\SystemMonitor.DataService.pdb
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.DataService\obj\Debug\net8.0\SystemMonitor.DataService.genruntimeconfig.cache
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.DataService\obj\Debug\net8.0\ref\SystemMonitor.DataService.dll

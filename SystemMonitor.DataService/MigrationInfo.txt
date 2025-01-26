@@ -1,0 +1,8 @@
+1) cd SystemMonitor\SystemMonitor.DataService
+
+2) dotnet ef migrations add "<Migration description>" --startup-project ..\SystemMonitor.Server\
+
+3) dotnet ef database update --startup-project ..\SystemMonitor.Server\ 
+
+
+!!! -> made sh file for future auto migration

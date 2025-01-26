@@ -1,0 +1,21 @@
+name: dockercompose9609077779490900979
+services:
+  systemmonitor.agent:
+    build:
+      context: C:\Users\vitaliip\Desktop\SystemMonitor
+      dockerfile: SystemMonitor.Agent/Dockerfile
+    environment:
+      DOTNET_ENVIRONMENT: Development
+    image: systemmonitoragent
+    networks:
+      default: null
+    volumes:
+      - type: bind
+        source: C:\Users\vitaliip\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+networks:
+  default:
+    name: dockercompose9609077779490900979_default

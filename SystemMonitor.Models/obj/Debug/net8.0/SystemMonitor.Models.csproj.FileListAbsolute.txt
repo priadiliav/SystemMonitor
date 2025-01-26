@@ -1,0 +1,11 @@
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.Models\bin\Debug\net8.0\SystemMonitor.Models.deps.json
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.Models\bin\Debug\net8.0\SystemMonitor.Models.dll
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.Models\bin\Debug\net8.0\SystemMonitor.Models.pdb
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.Models\obj\Debug\net8.0\SystemMonitor.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.Models\obj\Debug\net8.0\SystemMonitor.Models.AssemblyInfoInputs.cache
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.Models\obj\Debug\net8.0\SystemMonitor.Models.AssemblyInfo.cs
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.Models\obj\Debug\net8.0\SystemMonitor.Models.csproj.CoreCompileInputs.cache
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.Models\obj\Debug\net8.0\SystemMonitor.Models.dll
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.Models\obj\Debug\net8.0\refint\SystemMonitor.Models.dll
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.Models\obj\Debug\net8.0\SystemMonitor.Models.pdb
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.Models\obj\Debug\net8.0\ref\SystemMonitor.Models.dll

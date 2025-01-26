@@ -1,0 +1,12 @@
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.MessageBroker\bin\Debug\net8.0\SystemMonitor.MessageBroker.deps.json
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.MessageBroker\bin\Debug\net8.0\SystemMonitor.MessageBroker.dll
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.MessageBroker\bin\Debug\net8.0\SystemMonitor.MessageBroker.pdb
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.MessageBroker\obj\Debug\net8.0\SystemMonitor.MessageBroker.csproj.AssemblyReference.cache
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.MessageBroker\obj\Debug\net8.0\SystemMonitor.MessageBroker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.MessageBroker\obj\Debug\net8.0\SystemMonitor.MessageBroker.AssemblyInfoInputs.cache
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.MessageBroker\obj\Debug\net8.0\SystemMonitor.MessageBroker.AssemblyInfo.cs
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.MessageBroker\obj\Debug\net8.0\SystemMonitor.MessageBroker.csproj.CoreCompileInputs.cache
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.MessageBroker\obj\Debug\net8.0\SystemMonitor.MessageBroker.dll
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.MessageBroker\obj\Debug\net8.0\refint\SystemMonitor.MessageBroker.dll
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.MessageBroker\obj\Debug\net8.0\SystemMonitor.MessageBroker.pdb
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.MessageBroker\obj\Debug\net8.0\ref\SystemMonitor.MessageBroker.dll

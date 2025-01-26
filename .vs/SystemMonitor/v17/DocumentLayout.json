@@ -1,0 +1,708 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05DDB4C7-D114-47E5-A512-31E243B209CB}|SystemMonitor.DataService\\SystemMonitor.DataService.csproj|c:\\users\\vitaliip\\desktop\\systemmonitor\\systemmonitor.dataservice\\repositories\\computermetricsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05DDB4C7-D114-47E5-A512-31E243B209CB}|SystemMonitor.DataService\\SystemMonitor.DataService.csproj|solutionrelative:systemmonitor.dataservice\\repositories\\computermetricsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05DDB4C7-D114-47E5-A512-31E243B209CB}|SystemMonitor.DataService\\SystemMonitor.DataService.csproj|c:\\users\\vitaliip\\desktop\\systemmonitor\\systemmonitor.dataservice\\contracts\\icomputermetricsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05DDB4C7-D114-47E5-A512-31E243B209CB}|SystemMonitor.DataService\\SystemMonitor.DataService.csproj|solutionrelative:systemmonitor.dataservice\\contracts\\icomputermetricsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05DDB4C7-D114-47E5-A512-31E243B209CB}|SystemMonitor.DataService\\SystemMonitor.DataService.csproj|c:\\users\\vitaliip\\desktop\\systemmonitor\\systemmonitor.dataservice\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05DDB4C7-D114-47E5-A512-31E243B209CB}|SystemMonitor.DataService\\SystemMonitor.DataService.csproj|solutionrelative:systemmonitor.dataservice\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF2AFA6-DB14-4A87-9E8E-D20C4C53ABF1}|SystemMonitor.Server\\SystemMonitor.Server.csproj|c:\\users\\vitaliip\\desktop\\systemmonitor\\systemmonitor.server\\services\\computerdetailsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AF2AFA6-DB14-4A87-9E8E-D20C4C53ABF1}|SystemMonitor.Server\\SystemMonitor.Server.csproj|solutionrelative:systemmonitor.server\\services\\computerdetailsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF2AFA6-DB14-4A87-9E8E-D20C4C53ABF1}|SystemMonitor.Server\\SystemMonitor.Server.csproj|c:\\users\\vitaliip\\desktop\\systemmonitor\\systemmonitor.server\\mappingprofiles\\requesttodomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AF2AFA6-DB14-4A87-9E8E-D20C4C53ABF1}|SystemMonitor.Server\\SystemMonitor.Server.csproj|solutionrelative:systemmonitor.server\\mappingprofiles\\requesttodomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF2AFA6-DB14-4A87-9E8E-D20C4C53ABF1}|SystemMonitor.Server\\SystemMonitor.Server.csproj|c:\\users\\vitaliip\\desktop\\systemmonitor\\systemmonitor.server\\mappingprofiles\\domaintoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AF2AFA6-DB14-4A87-9E8E-D20C4C53ABF1}|SystemMonitor.Server\\SystemMonitor.Server.csproj|solutionrelative:systemmonitor.server\\mappingprofiles\\domaintoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF2AFA6-DB14-4A87-9E8E-D20C4C53ABF1}|SystemMonitor.Server\\SystemMonitor.Server.csproj|c:\\users\\vitaliip\\desktop\\systemmonitor\\systemmonitor.server\\controllers\\computerdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AF2AFA6-DB14-4A87-9E8E-D20C4C53ABF1}|SystemMonitor.Server\\SystemMonitor.Server.csproj|solutionrelative:systemmonitor.server\\controllers\\computerdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96A05032-526A-4095-8B92-A7417DD57908}|SystemMonitor.Models\\SystemMonitor.Models.csproj|c:\\users\\vitaliip\\desktop\\systemmonitor\\systemmonitor.models\\dtos\\computermetricsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96A05032-526A-4095-8B92-A7417DD57908}|SystemMonitor.Models\\SystemMonitor.Models.csproj|solutionrelative:systemmonitor.models\\dtos\\computermetricsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96A05032-526A-4095-8B92-A7417DD57908}|SystemMonitor.Models\\SystemMonitor.Models.csproj|c:\\users\\vitaliip\\desktop\\systemmonitor\\systemmonitor.models\\dtos\\computerdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96A05032-526A-4095-8B92-A7417DD57908}|SystemMonitor.Models\\SystemMonitor.Models.csproj|solutionrelative:systemmonitor.models\\dtos\\computerdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96A05032-526A-4095-8B92-A7417DD57908}|SystemMonitor.Models\\SystemMonitor.Models.csproj|c:\\users\\vitaliip\\desktop\\systemmonitor\\systemmonitor.models\\entities\\computermetrics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96A05032-526A-4095-8B92-A7417DD57908}|SystemMonitor.Models\\SystemMonitor.Models.csproj|solutionrelative:systemmonitor.models\\entities\\computermetrics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96A05032-526A-4095-8B92-A7417DD57908}|SystemMonitor.Models\\SystemMonitor.Models.csproj|c:\\users\\vitaliip\\desktop\\systemmonitor\\systemmonitor.models\\entities\\computerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96A05032-526A-4095-8B92-A7417DD57908}|SystemMonitor.Models\\SystemMonitor.Models.csproj|solutionrelative:systemmonitor.models\\entities\\computerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF2AFA6-DB14-4A87-9E8E-D20C4C53ABF1}|SystemMonitor.Server\\SystemMonitor.Server.csproj|c:\\users\\vitaliip\\desktop\\systemmonitor\\systemmonitor.server\\services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AF2AFA6-DB14-4A87-9E8E-D20C4C53ABF1}|SystemMonitor.Server\\SystemMonitor.Server.csproj|solutionrelative:systemmonitor.server\\services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF2AFA6-DB14-4A87-9E8E-D20C4C53ABF1}|SystemMonitor.Server\\SystemMonitor.Server.csproj|c:\\users\\vitaliip\\desktop\\systemmonitor\\systemmonitor.server\\services\\computermetricsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AF2AFA6-DB14-4A87-9E8E-D20C4C53ABF1}|SystemMonitor.Server\\SystemMonitor.Server.csproj|solutionrelative:systemmonitor.server\\services\\computermetricsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF2AFA6-DB14-4A87-9E8E-D20C4C53ABF1}|SystemMonitor.Server\\SystemMonitor.Server.csproj|c:\\users\\vitaliip\\desktop\\systemmonitor\\systemmonitor.server\\services\\kafkacomputerdetailsconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AF2AFA6-DB14-4A87-9E8E-D20C4C53ABF1}|SystemMonitor.Server\\SystemMonitor.Server.csproj|solutionrelative:systemmonitor.server\\services\\kafkacomputerdetailsconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96A05032-526A-4095-8B92-A7417DD57908}|SystemMonitor.Models\\SystemMonitor.Models.csproj|c:\\users\\vitaliip\\desktop\\systemmonitor\\systemmonitor.models\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96A05032-526A-4095-8B92-A7417DD57908}|SystemMonitor.Models\\SystemMonitor.Models.csproj|solutionrelative:systemmonitor.models\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF2AFA6-DB14-4A87-9E8E-D20C4C53ABF1}|SystemMonitor.Server\\SystemMonitor.Server.csproj|c:\\users\\vitaliip\\desktop\\systemmonitor\\systemmonitor.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AF2AFA6-DB14-4A87-9E8E-D20C4C53ABF1}|SystemMonitor.Server\\SystemMonitor.Server.csproj|solutionrelative:systemmonitor.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF2AFA6-DB14-4A87-9E8E-D20C4C53ABF1}|SystemMonitor.Server\\SystemMonitor.Server.csproj|c:\\users\\vitaliip\\desktop\\systemmonitor\\systemmonitor.server\\systemmonitor.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2AF2AFA6-DB14-4A87-9E8E-D20C4C53ABF1}|SystemMonitor.Server\\SystemMonitor.Server.csproj|solutionrelative:systemmonitor.server\\systemmonitor.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05DDB4C7-D114-47E5-A512-31E243B209CB}|SystemMonitor.DataService\\SystemMonitor.DataService.csproj|c:\\users\\vitaliip\\desktop\\systemmonitor\\systemmonitor.dataservice\\repositories\\computerdetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05DDB4C7-D114-47E5-A512-31E243B209CB}|SystemMonitor.DataService\\SystemMonitor.DataService.csproj|solutionrelative:systemmonitor.dataservice\\repositories\\computerdetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05DDB4C7-D114-47E5-A512-31E243B209CB}|SystemMonitor.DataService\\SystemMonitor.DataService.csproj|c:\\users\\vitaliip\\desktop\\systemmonitor\\systemmonitor.dataservice\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05DDB4C7-D114-47E5-A512-31E243B209CB}|SystemMonitor.DataService\\SystemMonitor.DataService.csproj|solutionrelative:systemmonitor.dataservice\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05DDB4C7-D114-47E5-A512-31E243B209CB}|SystemMonitor.DataService\\SystemMonitor.DataService.csproj|c:\\users\\vitaliip\\desktop\\systemmonitor\\systemmonitor.dataservice\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05DDB4C7-D114-47E5-A512-31E243B209CB}|SystemMonitor.DataService\\SystemMonitor.DataService.csproj|solutionrelative:systemmonitor.dataservice\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF2AFA6-DB14-4A87-9E8E-D20C4C53ABF1}|SystemMonitor.Server\\SystemMonitor.Server.csproj|c:\\users\\vitaliip\\desktop\\systemmonitor\\systemmonitor.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2AF2AFA6-DB14-4A87-9E8E-D20C4C53ABF1}|SystemMonitor.Server\\SystemMonitor.Server.csproj|solutionrelative:systemmonitor.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05DDB4C7-D114-47E5-A512-31E243B209CB}|SystemMonitor.DataService\\SystemMonitor.DataService.csproj|c:\\users\\vitaliip\\desktop\\systemmonitor\\systemmonitor.dataservice\\contracts\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05DDB4C7-D114-47E5-A512-31E243B209CB}|SystemMonitor.DataService\\SystemMonitor.DataService.csproj|solutionrelative:systemmonitor.dataservice\\contracts\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05DDB4C7-D114-47E5-A512-31E243B209CB}|SystemMonitor.DataService\\SystemMonitor.DataService.csproj|c:\\users\\vitaliip\\desktop\\systemmonitor\\systemmonitor.dataservice\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05DDB4C7-D114-47E5-A512-31E243B209CB}|SystemMonitor.DataService\\SystemMonitor.DataService.csproj|solutionrelative:systemmonitor.dataservice\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF2AFA6-DB14-4A87-9E8E-D20C4C53ABF1}|SystemMonitor.Server\\SystemMonitor.Server.csproj|c:\\users\\vitaliip\\desktop\\systemmonitor\\systemmonitor.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2AF2AFA6-DB14-4A87-9E8E-D20C4C53ABF1}|SystemMonitor.Server\\SystemMonitor.Server.csproj|solutionrelative:systemmonitor.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF2AFA6-DB14-4A87-9E8E-D20C4C53ABF1}|SystemMonitor.Server\\SystemMonitor.Server.csproj|c:\\users\\vitaliip\\desktop\\systemmonitor\\systemmonitor.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2AF2AFA6-DB14-4A87-9E8E-D20C4C53ABF1}|SystemMonitor.Server\\SystemMonitor.Server.csproj|solutionrelative:systemmonitor.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05DDB4C7-D114-47E5-A512-31E243B209CB}|SystemMonitor.DataService\\SystemMonitor.DataService.csproj|c:\\users\\vitaliip\\desktop\\systemmonitor\\systemmonitor.dataservice\\migrations\\20250119130425_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05DDB4C7-D114-47E5-A512-31E243B209CB}|SystemMonitor.DataService\\SystemMonitor.DataService.csproj|solutionrelative:systemmonitor.dataservice\\migrations\\20250119130425_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD90B490-C12B-4871-BA17-3BAD8C59091E}|docker-compose.dcproj|c:\\users\\vitaliip\\desktop\\systemmonitor\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CD90B490-C12B-4871-BA17-3BAD8C59091E}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD90B490-C12B-4871-BA17-3BAD8C59091E}|docker-compose.dcproj|c:\\users\\vitaliip\\desktop\\systemmonitor\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CD90B490-C12B-4871-BA17-3BAD8C59091E}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D10999E-730E-41DA-BB0B-FBC2ECBBFA00}|SystemMonitor.Kafka\\SystemMonitor.Kafka.csproj|c:\\users\\vitaliip\\desktop\\systemmonitor\\systemmonitor.kafka\\jsondeserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D10999E-730E-41DA-BB0B-FBC2ECBBFA00}|SystemMonitor.Kafka\\SystemMonitor.Kafka.csproj|solutionrelative:systemmonitor.kafka\\jsondeserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D10999E-730E-41DA-BB0B-FBC2ECBBFA00}|SystemMonitor.Kafka\\SystemMonitor.Kafka.csproj|c:\\users\\vitaliip\\desktop\\systemmonitor\\systemmonitor.kafka\\jsonserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D10999E-730E-41DA-BB0B-FBC2ECBBFA00}|SystemMonitor.Kafka\\SystemMonitor.Kafka.csproj|solutionrelative:systemmonitor.kafka\\jsonserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF81573-2346-4353-9C88-4AA112E207D1}|SystemMonitor.Security\\SystemMonitor.Security.csproj|c:\\users\\vitaliip\\desktop\\systemmonitor\\systemmonitor.security\\impls\\objectdecryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCF81573-2346-4353-9C88-4AA112E207D1}|SystemMonitor.Security\\SystemMonitor.Security.csproj|solutionrelative:systemmonitor.security\\impls\\objectdecryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF81573-2346-4353-9C88-4AA112E207D1}|SystemMonitor.Security\\SystemMonitor.Security.csproj|c:\\users\\vitaliip\\desktop\\systemmonitor\\systemmonitor.security\\impls\\objectencryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCF81573-2346-4353-9C88-4AA112E207D1}|SystemMonitor.Security\\SystemMonitor.Security.csproj|solutionrelative:systemmonitor.security\\impls\\objectencryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF81573-2346-4353-9C88-4AA112E207D1}|SystemMonitor.Security\\SystemMonitor.Security.csproj|c:\\users\\vitaliip\\desktop\\systemmonitor\\systemmonitor.security\\systemmonitor.security.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FCF81573-2346-4353-9C88-4AA112E207D1}|SystemMonitor.Security\\SystemMonitor.Security.csproj|solutionrelative:systemmonitor.security\\systemmonitor.security.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 398,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.DataService\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "SystemMonitor.DataService\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.DataService\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "SystemMonitor.DataService\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T14:36:43.597Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.DataService\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "SystemMonitor.DataService\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.DataService\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "SystemMonitor.DataService\\Repositories\\GenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T11:22:09.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ComputerMetricsDto.cs",
+              "DocumentMoniker": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Models\\Dtos\\ComputerMetricsDto.cs",
+              "RelativeDocumentMoniker": "SystemMonitor.Models\\Dtos\\ComputerMetricsDto.cs",
+              "ToolTip": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Models\\Dtos\\ComputerMetricsDto.cs",
+              "RelativeToolTip": "SystemMonitor.Models\\Dtos\\ComputerMetricsDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T10:18:08.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RequestToDomain.cs",
+              "DocumentMoniker": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Server\\MappingProfiles\\RequestToDomain.cs",
+              "RelativeDocumentMoniker": "SystemMonitor.Server\\MappingProfiles\\RequestToDomain.cs",
+              "ToolTip": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Server\\MappingProfiles\\RequestToDomain.cs",
+              "RelativeToolTip": "SystemMonitor.Server\\MappingProfiles\\RequestToDomain.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T10:12:24.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DomainToResponse.cs",
+              "DocumentMoniker": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Server\\MappingProfiles\\DomainToResponse.cs",
+              "RelativeDocumentMoniker": "SystemMonitor.Server\\MappingProfiles\\DomainToResponse.cs",
+              "ToolTip": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Server\\MappingProfiles\\DomainToResponse.cs",
+              "RelativeToolTip": "SystemMonitor.Server\\MappingProfiles\\DomainToResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T10:12:15.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ComputerDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Models\\Dtos\\ComputerDetailsDto.cs",
+              "RelativeDocumentMoniker": "SystemMonitor.Models\\Dtos\\ComputerDetailsDto.cs",
+              "ToolTip": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Models\\Dtos\\ComputerDetailsDto.cs",
+              "RelativeToolTip": "SystemMonitor.Models\\Dtos\\ComputerDetailsDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T10:10:15.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ComputerDetailsService.cs",
+              "DocumentMoniker": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Server\\Services\\ComputerDetailsService.cs",
+              "RelativeDocumentMoniker": "SystemMonitor.Server\\Services\\ComputerDetailsService.cs",
+              "ToolTip": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Server\\Services\\ComputerDetailsService.cs",
+              "RelativeToolTip": "SystemMonitor.Server\\Services\\ComputerDetailsService.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAgwCMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T15:16:52.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ComputerMetrics.cs",
+              "DocumentMoniker": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Models\\Entities\\ComputerMetrics.cs",
+              "RelativeDocumentMoniker": "SystemMonitor.Models\\Entities\\ComputerMetrics.cs",
+              "ToolTip": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Models\\Entities\\ComputerMetrics.cs",
+              "RelativeToolTip": "SystemMonitor.Models\\Entities\\ComputerMetrics.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T13:27:30.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ComputerMetricsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.DataService\\Repositories\\ComputerMetricsRepository.cs",
+              "RelativeDocumentMoniker": "SystemMonitor.DataService\\Repositories\\ComputerMetricsRepository.cs",
+              "ToolTip": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.DataService\\Repositories\\ComputerMetricsRepository.cs",
+              "RelativeToolTip": "SystemMonitor.DataService\\Repositories\\ComputerMetricsRepository.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowBoAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T09:40:49.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IComputerMetricsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.DataService\\Contracts\\IComputerMetricsRepository.cs",
+              "RelativeDocumentMoniker": "SystemMonitor.DataService\\Contracts\\IComputerMetricsRepository.cs",
+              "ToolTip": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.DataService\\Contracts\\IComputerMetricsRepository.cs",
+              "RelativeToolTip": "SystemMonitor.DataService\\Contracts\\IComputerMetricsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T14:54:19.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ComputerDetails.cs",
+              "DocumentMoniker": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Models\\Entities\\ComputerDetails.cs",
+              "RelativeDocumentMoniker": "SystemMonitor.Models\\Entities\\ComputerDetails.cs",
+              "ToolTip": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Models\\Entities\\ComputerDetails.cs",
+              "RelativeToolTip": "SystemMonitor.Models\\Entities\\ComputerDetails.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T13:27:29.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Server\\Services\\BaseService.cs",
+              "RelativeDocumentMoniker": "SystemMonitor.Server\\Services\\BaseService.cs",
+              "ToolTip": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Server\\Services\\BaseService.cs",
+              "RelativeToolTip": "SystemMonitor.Server\\Services\\BaseService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T10:02:34.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ComputerDetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Server\\Controllers\\ComputerDetailsController.cs",
+              "RelativeDocumentMoniker": "SystemMonitor.Server\\Controllers\\ComputerDetailsController.cs",
+              "ToolTip": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Server\\Controllers\\ComputerDetailsController.cs",
+              "RelativeToolTip": "SystemMonitor.Server\\Controllers\\ComputerDetailsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T09:07:03.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ComputerMetricsService.cs",
+              "DocumentMoniker": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Server\\Services\\ComputerMetricsService.cs",
+              "RelativeDocumentMoniker": "SystemMonitor.Server\\Services\\ComputerMetricsService.cs",
+              "ToolTip": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Server\\Services\\ComputerMetricsService.cs",
+              "RelativeToolTip": "SystemMonitor.Server\\Services\\ComputerMetricsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T09:50:04.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "KafkaComputerDetailsConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Server\\Services\\KafkaComputerDetailsConsumer.cs",
+              "RelativeDocumentMoniker": "SystemMonitor.Server\\Services\\KafkaComputerDetailsConsumer.cs",
+              "ToolTip": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Server\\Services\\KafkaComputerDetailsConsumer.cs",
+              "RelativeToolTip": "SystemMonitor.Server\\Services\\KafkaComputerDetailsConsumer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T15:01:50.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Server\\Program.cs",
+              "RelativeDocumentMoniker": "SystemMonitor.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Server\\Program.cs",
+              "RelativeToolTip": "SystemMonitor.Server\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T12:58:44.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SystemMonitor.Server.csproj",
+              "DocumentMoniker": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Server\\SystemMonitor.Server.csproj",
+              "RelativeDocumentMoniker": "SystemMonitor.Server\\SystemMonitor.Server.csproj",
+              "ToolTip": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Server\\SystemMonitor.Server.csproj",
+              "RelativeToolTip": "SystemMonitor.Server\\SystemMonitor.Server.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-19T12:57:55.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Models\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "SystemMonitor.Models\\Entities\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Models\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "SystemMonitor.Models\\Entities\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T13:27:29.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ComputerDetailsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.DataService\\Repositories\\ComputerDetailsRepository.cs",
+              "RelativeDocumentMoniker": "SystemMonitor.DataService\\Repositories\\ComputerDetailsRepository.cs",
+              "ToolTip": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.DataService\\Repositories\\ComputerDetailsRepository.cs",
+              "RelativeToolTip": "SystemMonitor.DataService\\Repositories\\ComputerDetailsRepository.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAwwCoAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T09:28:35.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.DataService\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "SystemMonitor.DataService\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.DataService\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "SystemMonitor.DataService\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAABAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T15:02:57.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Server\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SystemMonitor.Server\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Server\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SystemMonitor.Server\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-19T13:28:07.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.DataService\\Contracts\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "SystemMonitor.DataService\\Contracts\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.DataService\\Contracts\\IUnitOfWork.cs",
+              "RelativeToolTip": "SystemMonitor.DataService\\Contracts\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T14:54:09.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Server\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "SystemMonitor.Server\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Server\\appsettings.Development.json",
+              "RelativeToolTip": "SystemMonitor.Server\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-19T13:40:46.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.DataService\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "SystemMonitor.DataService\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.DataService\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "SystemMonitor.DataService\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T13:04:35.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "JsonDeserializer.cs",
+              "DocumentMoniker": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Kafka\\JsonDeserializer.cs",
+              "RelativeDocumentMoniker": "SystemMonitor.Kafka\\JsonDeserializer.cs",
+              "ToolTip": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Kafka\\JsonDeserializer.cs",
+              "RelativeToolTip": "SystemMonitor.Kafka\\JsonDeserializer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T13:28:19.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "JsonSerializer.cs",
+              "DocumentMoniker": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Kafka\\JsonSerializer.cs",
+              "RelativeDocumentMoniker": "SystemMonitor.Kafka\\JsonSerializer.cs",
+              "ToolTip": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Kafka\\JsonSerializer.cs",
+              "RelativeToolTip": "SystemMonitor.Kafka\\JsonSerializer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T13:28:22.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "SystemMonitor.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Server\\appsettings.json",
+              "RelativeToolTip": "SystemMonitor.Server\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-19T13:30:50.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ObjectEncryptor.cs",
+              "DocumentMoniker": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Security\\Impls\\ObjectEncryptor.cs",
+              "RelativeDocumentMoniker": "SystemMonitor.Security\\Impls\\ObjectEncryptor.cs",
+              "ToolTip": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Security\\Impls\\ObjectEncryptor.cs",
+              "RelativeToolTip": "SystemMonitor.Security\\Impls\\ObjectEncryptor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T13:26:55.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ObjectDecryptor.cs",
+              "DocumentMoniker": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Security\\Impls\\ObjectDecryptor.cs",
+              "RelativeDocumentMoniker": "SystemMonitor.Security\\Impls\\ObjectDecryptor.cs",
+              "ToolTip": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Security\\Impls\\ObjectDecryptor.cs",
+              "RelativeToolTip": "SystemMonitor.Security\\Impls\\ObjectDecryptor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T13:26:54.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AQIAAAcAAAAAAAAAAEBVwBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-01-19T13:05:17.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20250119130425_init.cs",
+              "DocumentMoniker": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.DataService\\Migrations\\20250119130425_init.cs",
+              "RelativeDocumentMoniker": "SystemMonitor.DataService\\Migrations\\20250119130425_init.cs",
+              "ToolTip": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.DataService\\Migrations\\20250119130425_init.cs",
+              "RelativeToolTip": "SystemMonitor.DataService\\Migrations\\20250119130425_init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwDwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T13:04:31.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "docker-compose.dcproj",
+              "DocumentMoniker": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\docker-compose.dcproj",
+              "RelativeDocumentMoniker": "docker-compose.dcproj",
+              "ToolTip": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\docker-compose.dcproj",
+              "RelativeToolTip": "docker-compose.dcproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-19T13:28:51.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SystemMonitor.Security.csproj",
+              "DocumentMoniker": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Security\\SystemMonitor.Security.csproj",
+              "RelativeDocumentMoniker": "SystemMonitor.Security\\SystemMonitor.Security.csproj",
+              "ToolTip": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Security\\SystemMonitor.Security.csproj",
+              "RelativeToolTip": "SystemMonitor.Security\\SystemMonitor.Security.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-19T13:01:49.962Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 247,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{4a18f9d0-b838-11d0-93eb-00a0c90f2734}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 126,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ecb7191a-597b-41f5-9843-03a4cf275dde}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 93,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 773,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1013,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
