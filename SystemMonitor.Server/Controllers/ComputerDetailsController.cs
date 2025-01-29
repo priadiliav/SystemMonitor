@@ -1,10 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using SystemMonitor.Models.Dtos;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using SystemMonitor.Models.Entities;
 using SystemMonitor.Server.Services;
 
 namespace SystemMonitor.Server.Controllers;
 
+[Authorize]
 [ApiController]
 [Route("api/computer")]
 public class ComputerDetailsController (ComputerService computerService) : ControllerBase

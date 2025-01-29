@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ComputerService } from '../computer.service';
+import { ComputerService } from '../services/computer.service';
 import { ComputerDetails } from '../computer';
 import { CommonModule } from '@angular/common';
 

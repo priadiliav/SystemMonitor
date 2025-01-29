@@ -1,4 +1,5 @@
 ﻿namespace SystemMonitor.Security;
-internal interface IEncryptor
+public interface IEncryptor
 {
+    string PasswordEncrypt(string value);
 }

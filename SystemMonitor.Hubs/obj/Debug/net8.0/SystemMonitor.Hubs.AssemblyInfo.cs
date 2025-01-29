@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SystemMonitor.Hubs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02ccbd9e3755782d967dd8ec9094bedacd11cda4")]
 [assembly: System.Reflection.AssemblyProductAttribute("SystemMonitor.Hubs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SystemMonitor.Hubs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

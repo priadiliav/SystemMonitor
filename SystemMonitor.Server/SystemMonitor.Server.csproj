@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.12" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.1">
       <PrivateAssets>all</PrivateAssets>
@@ -27,6 +28,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SystemMonitor.Auth\SystemMonitor.Auth.csproj" />
     <ProjectReference Include="..\SystemMonitor.DataService\SystemMonitor.DataService.csproj" />
     <ProjectReference Include="..\SystemMonitor.MessageBroker\SystemMonitor.MessageBroker.csproj" />
     <ProjectReference Include="..\SystemMonitor.Models\SystemMonitor.Models.csproj" />

@@ -1,0 +1,85 @@
+# .NET build artifacts
+bin/
+obj/
+.idea/
+
+*.dll
+*.exe
+*.pdb
+*.cache
+*.ilk
+*.log
+*.vspscc
+*.vssscc
+.vscode/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.ncrunchsolution
+*.ncrunchproject
+*.localhistory
+*.DS_Store
+*.sln.ide
+*.sln.ide.*
+*.sln.ide.*.user
+*.sln.ide.*.suo
+*.sln.ide.*.sln.docstates
+*.sln.ide.*.ncrunchsolution
+*.sln.ide.*.ncrunchproject
+*.sln.ide.*.localhistory
+*.sln.ide.*.DS_Store
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+.history/
+
+# Angular build artifacts
+dist/
+node_modules/
+tmp/
+temp/
+out-tsc/
+.angular/
+.angular-build/
+.angular-cache/
+.angular-cli.json
+.angular.json
+.angular-cli.json
+.angular-cli.json.*
+.angular.json.*
+.angular-cli.json.*.user
+.angular.json.*.user
+.angular-cli.json.*.suo
+.angular.json.*.suo
+.angular-cli.json.*.sln.docstates
+.angular.json.*.sln.docstates
+.angular-cli.json.*.ncrunchsolution
+.angular.json.*.ncrunchsolution
+.angular-cli.json.*.ncrunchproject
+.angular.json.*.ncrunchproject
+.angular-cli.json.*.localhistory
+.angular.json.*.localhistory
+.angular-cli.json.*.DS_Store
+.angular.json.*.DS_Store

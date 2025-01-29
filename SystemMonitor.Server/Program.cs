@@ -1,6 +1,8 @@
 using Confluent.Kafka;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
+using SystemMonitor.Auth.Extentions;
 using SystemMonitor.DataService.Contracts;
 using SystemMonitor.DataService.Data;
 using SystemMonitor.DataService.Repositories;
@@ -18,6 +20,9 @@ builder.Services.AddLogging(config =>
     config.AddConsole();
 });
 
+
+// Authentication
+builder.Services.AddJwtAuthentication(builder.Configuration);
 builder.Services.Configure<KafkaConsumerSettings>(builder.Configuration.GetSection("Kafka"));
 
 var dbConnectionString = builder.Configuration.GetConnectionString("DefaultConnection");
@@ -25,7 +30,6 @@ builder.Services.AddDbContext<AppDbContext>(
     option => option.UseNpgsql(dbConnectionString));
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-
 builder.Services.AddScoped<IComputerDetailsRepository, ComputerDetailsRepository>();
 builder.Services.AddScoped<IComputerMetricsRepository, ComputerMetricsRepository>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
@@ -49,6 +53,7 @@ builder.Services.AddSingleton<IKafkaConsumer<string, ComputerDetailsDto>>(sp =>
         null, 
         kafkaSettings.Topic);
 });
+
 builder.Services.AddHostedService<ComputerConsumer>();
 
 builder.Services.AddControllers();
@@ -56,14 +61,17 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
-
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+// For now, we don't need HTTPS
+//app.UseHttpsRedirection();
+
+app.UseAuthentication();
 app.UseAuthorization();
+
 app.MapControllers();
 app.Run();

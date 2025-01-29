@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "J83jWjExob9yt+KCXod6MXy1Zqm2nm89h2/E+ZKG1Yo=",
+  "Hash": "3tVKP5OthDeYyYfi49yvn9aVT4xg7ICFiEJ0f/Hcf4I=",
   "Source": "SystemMonitor.Hubs",
   "BasePath": "_content/SystemMonitor.Hubs",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\vitaliip\\Desktop\\SystemMonitor\\SystemMonitor.Auth\\SystemMonitor.Auth.csproj",
+      "Version": 2,
+      "Source": "SystemMonitor.Auth",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [],
   "Assets": []
 }

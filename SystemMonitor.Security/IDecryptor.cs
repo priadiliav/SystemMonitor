@@ -1,5 +1,6 @@
 ﻿namespace SystemMonitor.Security;
 
-internal interface IDecryptor
+public interface IDecryptor
 {
+    string PasswordDecrypt(string value);
 }

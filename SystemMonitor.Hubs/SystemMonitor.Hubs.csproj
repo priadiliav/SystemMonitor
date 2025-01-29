@@ -21,6 +21,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\SystemMonitor.Auth\SystemMonitor.Auth.csproj" />
       <ProjectReference Include="..\SystemMonitor.MessageBroker\SystemMonitor.MessageBroker.csproj" />
       <ProjectReference Include="..\SystemMonitor.Models\SystemMonitor.Models.csproj" />
     </ItemGroup>

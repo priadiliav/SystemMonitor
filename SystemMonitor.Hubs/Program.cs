@@ -1,5 +1,6 @@
 using Confluent.Kafka;
 using Microsoft.Extensions.Options;
+using SystemMonitor.Auth.Extentions;
 using SystemMonitor.Hubs.Hubs;
 using SystemMonitor.Hubs.Services;
 using SystemMonitor.MessageBroker;
@@ -8,20 +9,22 @@ using SystemMonitor.Models.Configs;
 using SystemMonitor.Models.Dtos;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddJwtAuthentication(builder.Configuration);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddSignalR();
 
 builder.Services.AddCors(options =>
 {
-    options.AddDefaultPolicy(builder =>
+    options.AddDefaultPolicy(corsPolicyBuilder =>
     {
-        builder.WithOrigins("http://localhost:4200")
+        corsPolicyBuilder.WithOrigins("http://localhost:4200")
             .AllowAnyMethod()
             .AllowAnyHeader()
             .AllowCredentials();
     });
 });
+builder.Services.AddSignalR();
 
 // settings
 builder.Services.Configure<KafkaConsumerSettings>(builder.Configuration.GetSection("Kafka"));
@@ -47,10 +50,24 @@ builder.Services.AddHostedService<ComputerConsumer>();
 
 var app = builder.Build();
 
-app.UseHttpsRedirection();
+// For now, we don't need HTTPS
+//app.UseHttpsRedirection();
+
+app.UseRouting();
+app.UseCors(policyBuilder => policyBuilder
+    .AllowAnyHeader()
+    .AllowAnyMethod()
+    .SetIsOriginAllowed(_ => true)
+    .AllowCredentials()
+);
+
+
+app.UseAuthentication();
 app.UseAuthorization();
-app.UseCors();
+
+
 app.MapHub<ComputerHub>("/computerHub");
+app.MapHub<WelcomeHub>("/welcomeHub");
 
 app.Run();
 

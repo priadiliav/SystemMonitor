@@ -10,3 +10,4 @@ C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.MessageBroker\obj\Debug\ne
 C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.MessageBroker\obj\Debug\net8.0\refint\SystemMonitor.MessageBroker.dll
 C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.MessageBroker\obj\Debug\net8.0\SystemMonitor.MessageBroker.pdb
 C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.MessageBroker\obj\Debug\net8.0\ref\SystemMonitor.MessageBroker.dll
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.MessageBroker\obj\Debug\net8.0\SystemMonitor.MessageBroker.sourcelink.json

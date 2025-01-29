@@ -12,8 +12,6 @@ public class ComputerService(
     ILogger<ComputerService> logger)
     : BaseService<ComputerService>(logger, mapper, unitOfWork)
 {
-    
-    
     public async Task<List<ComputerDetails>> Get()
     {
         try
@@ -28,7 +26,7 @@ public class ComputerService(
         }
     }
     
-    public async Task<ComputerDetails> AddOrUpdate(ComputerDetailsDto computerDetailsDto)
+    public async Task AddOrUpdate(ComputerDetailsDto computerDetailsDto)
     {
         if (computerDetailsDto == null)
             throw new ArgumentNullException(nameof(computerDetailsDto), "ComputersDto can't be null");
@@ -51,7 +49,6 @@ public class ComputerService(
                 }
                 else
                 {
-                    // If Metrics not found 
                     var newMetrics = Mapper.Map<ComputerMetrics>(computerDetailsDto.Metrics);
                     newMetrics.ComputerDetailsId = existingComputer.Id;
                     existingComputer.ComputerMetricsId = newMetrics.Id;
@@ -61,8 +58,6 @@ public class ComputerService(
                 }
 
                 await UnitOfWork.CompleteTask();
-
-                return existingComputer;
             }
             else
             {
@@ -75,8 +70,6 @@ public class ComputerService(
                 await computerMetricsRepository.Add(newMetrics);
 
                 await UnitOfWork.CompleteTask();
-                
-                return newComputer;
             }
         }
         catch (Exception ex)

@@ -13,7 +13,7 @@ public class ComputerDetailsRepository(AppDbContext appDbContext, ILogger<Comput
     {
         try
         {
-            return await DbSet.Where(x => x.Status == 1)
+            return await DbSet.Where(x => x.Status == 0)
                 .AsSplitQuery()
                 .OrderBy(x => x.CreatingDateTime)
                 .ToListAsync();

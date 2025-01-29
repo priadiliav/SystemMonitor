@@ -80,3 +80,4 @@ C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.Agent\bin\Debug\net8.0\run
 C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.Agent\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.Agent\bin\Debug\net8.0\SystemMonitor.MessageBroker.dll
 C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.Agent\bin\Debug\net8.0\SystemMonitor.MessageBroker.pdb
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.Agent\obj\Debug\net8.0\SystemMonitor.Agent.sourcelink.json

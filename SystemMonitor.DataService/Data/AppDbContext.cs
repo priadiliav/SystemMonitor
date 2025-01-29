@@ -4,9 +4,9 @@ using SystemMonitor.Models.Entities;
 namespace SystemMonitor.DataService.Data;
 public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options)
 {
+    public virtual DbSet<User> Users { get; set; }
     public virtual DbSet<ComputerDetails> ComputerDetails { get; set; }
     public virtual DbSet<ComputerMetrics> ComputerMetrics { get; set; }
-
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
@@ -22,6 +22,11 @@ public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(op
             .WithOne(m => m.ComputerDetails)
             .HasForeignKey<ComputerMetrics>(m => m.ComputerDetailsId)
             .OnDelete(DeleteBehavior.Cascade);
+
+        // Users should have unique usernames
+        modelBuilder.Entity<User>()
+            .HasIndex(x => x.Username)
+            .IsUnique();
     }
 
     public override int SaveChanges()

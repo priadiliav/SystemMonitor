@@ -90,6 +90,41 @@ namespace SystemMonitor.DataService.Migrations
                     b.ToTable("ComputerMetrics");
                 });
 
+            modelBuilder.Entity("SystemMonitor.Models.Entities.User", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreatingDateTime")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Role")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTime>("UpdatingDateTime")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Username")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Username")
+                        .IsUnique();
+
+                    b.ToTable("Users");
+                });
+
             modelBuilder.Entity("SystemMonitor.Models.Entities.ComputerMetrics", b =>
                 {
                     b.HasOne("SystemMonitor.Models.Entities.ComputerDetails", "ComputerDetails")

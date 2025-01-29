@@ -15,3 +15,4 @@ C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.DataService\obj\Debug\net8
 C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.DataService\obj\Debug\net8.0\SystemMonitor.DataService.pdb
 C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.DataService\obj\Debug\net8.0\SystemMonitor.DataService.genruntimeconfig.cache
 C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.DataService\obj\Debug\net8.0\ref\SystemMonitor.DataService.dll
+C:\Users\vitaliip\Desktop\SystemMonitor\SystemMonitor.DataService\obj\Debug\net8.0\SystemMonitor.DataService.sourcelink.json
