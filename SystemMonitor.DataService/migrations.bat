@@ -1,0 +1,1 @@
+docker-compose  dotnet ef database update --project SystemMonitor.DataService

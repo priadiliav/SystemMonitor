@@ -1,6 +1,6 @@
-using Confluent.Kafka;
 using System.Text;
 using System.Text.Json;
+using Confluent.Kafka;
 
 namespace SystemMonitor.MessageBroker.Transformations;
 

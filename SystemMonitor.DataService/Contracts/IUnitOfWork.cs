@@ -1,4 +1,5 @@
 ﻿namespace SystemMonitor.DataService.Contracts;
+
 public interface IUnitOfWork
 {
     IComputerDetailsRepository ComputerDetails { get; set; }

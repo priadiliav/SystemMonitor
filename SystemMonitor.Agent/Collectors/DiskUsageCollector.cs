@@ -19,7 +19,7 @@ public class DiskUsageCollector : IMetricCollector
                 totalDiskSpace += drive.TotalSize;
             }
 
-            metrics.DiskUsage = totalDiskSpace > 0 ? (totalUsedSpace / totalDiskSpace) * 100 : 0;
+            metrics.DiskUsage = totalDiskSpace > 0 ? totalUsedSpace / totalDiskSpace * 100 : 0;
         }
         catch (Exception ex)
         {

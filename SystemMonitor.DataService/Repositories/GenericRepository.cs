@@ -1,13 +1,15 @@
-﻿using Microsoft.Extensions.Logging;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using SystemMonitor.DataService.Contracts;
 using SystemMonitor.DataService.Data;
 
 namespace SystemMonitor.DataService.Repositories;
+
 public class GenericRepository<T> : IGenericRepository<T> where T : class
 {
-    protected readonly ILogger<GenericRepository<T>> Logger;
     internal readonly DbSet<T> DbSet;
+    protected readonly ILogger<GenericRepository<T>> Logger;
+
     protected GenericRepository(
         AppDbContext appDbContext,
         ILogger<GenericRepository<T>> logger)

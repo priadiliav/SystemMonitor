@@ -9,14 +9,14 @@ public class KafkaProducer<TKey, TValue>(ProducerConfig config) : IDisposable, I
     private readonly Confluent.Kafka.IProducer<TKey, TValue> _producer = new ProducerBuilder<TKey, TValue>(config)
         .SetValueSerializer(new DefaultSerializer<TValue>()).Build();
 
-    public async Task ProduceAsync(string topic, TKey key, TValue value)  
-    {  
-        await _producer.ProduceAsync(topic, new Message<TKey, TValue> { Key = key, Value = value });  
-    }  
-  
-    public void Dispose()  
-    {  
-        _producer.Flush();  
-        _producer.Dispose();  
-    }  
+    public void Dispose()
+    {
+        _producer.Flush();
+        _producer.Dispose();
+    }
+
+    public async Task ProduceAsync(string topic, TKey key, TValue value)
+    {
+        await _producer.ProduceAsync(topic, new Message<TKey, TValue> { Key = key, Value = value });
+    }
 }

@@ -1,4 +1,5 @@
 ﻿namespace SystemMonitor.DataService.Contracts;
+
 public interface IGenericRepository<T> where T : class
 {
     Task<IEnumerable<T>> Get();

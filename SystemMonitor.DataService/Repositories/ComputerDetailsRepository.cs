@@ -21,7 +21,7 @@ public class ComputerDetailsRepository(AppDbContext appDbContext, ILogger<Comput
         catch (Exception ex)
         {
             Logger.LogError(ex, "Error occured");
-            throw; 
+            throw;
         }
     }
 
@@ -36,15 +36,14 @@ public class ComputerDetailsRepository(AppDbContext appDbContext, ILogger<Comput
 
             existsComputerDetailsById.Status = 0;
             existsComputerDetailsById.UpdatingDateTime = DateTime.Now;
-             
+
             return true;
         }
-        catch(Exception ex)
+        catch (Exception ex)
         {
             Logger.LogError(ex, "Error occured");
             throw;
         }
-
     }
 
     public override async Task<bool> Update(ComputerDetails computerDetails)

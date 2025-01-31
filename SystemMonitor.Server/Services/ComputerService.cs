@@ -4,6 +4,7 @@ using SystemMonitor.Models.Dtos;
 using SystemMonitor.Models.Entities;
 
 namespace SystemMonitor.Server.Services;
+
 public class ComputerService(
     IComputerDetailsRepository computerDetailsRepository,
     IComputerMetricsRepository computerMetricsRepository,
@@ -25,7 +26,7 @@ public class ComputerService(
             throw;
         }
     }
-    
+
     public async Task AddOrUpdate(ComputerDetailsDto computerDetailsDto)
     {
         if (computerDetailsDto == null)
@@ -37,7 +38,8 @@ public class ComputerService(
 
             if (existingComputer != null)
             {
-                var existingMetrics = await computerMetricsRepository.GetComputerMetricsByComputerId(existingComputer.Id);
+                var existingMetrics =
+                    await computerMetricsRepository.GetComputerMetricsByComputerId(existingComputer.Id);
                 if (existingMetrics != null)
                 {
                     Mapper.Map(computerDetailsDto.Metrics, existingMetrics);
@@ -52,7 +54,7 @@ public class ComputerService(
                     var newMetrics = Mapper.Map<ComputerMetrics>(computerDetailsDto.Metrics);
                     newMetrics.ComputerDetailsId = existingComputer.Id;
                     existingComputer.ComputerMetricsId = newMetrics.Id;
-                    
+
                     await computerMetricsRepository.Add(newMetrics);
                     await computerDetailsRepository.Update(existingComputer);
                 }

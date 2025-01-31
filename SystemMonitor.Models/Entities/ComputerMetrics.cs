@@ -1,4 +1,5 @@
 ﻿namespace SystemMonitor.Models.Entities;
+
 public sealed class ComputerMetrics : BaseEntity
 {
     public double CpuUsage { get; set; }

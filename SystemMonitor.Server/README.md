@@ -1,7 +1,7 @@
 ### Description
 
-This service is responsible for consuming the data from message broker and storing it in the database. Also, it provides the API to fetch the data from the database.
-
+This service is responsible for consuming the data from message broker and storing it in the database. Also, it provides
+the API to fetch the data from the database.
 
 ### Feature improvements
 

@@ -1,6 +1,6 @@
-using Confluent.Kafka;
 using System.Text;
 using System.Text.Json;
+using Confluent.Kafka;
 
 namespace SystemMonitor.MessageBroker.Transformations;
 
@@ -12,7 +12,7 @@ public class DefaultDeserializer<T> : IDeserializer<T>
             return default;
 
         var json = Encoding.UTF8.GetString(data);
-        
+
         return JsonSerializer.Deserialize<T>(json);
     }
 }

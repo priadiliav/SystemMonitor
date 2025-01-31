@@ -6,7 +6,7 @@ This service is responsible for repositories and AppDbContext.
 
 1. `cd` SystemMonitor\SystemMonitor.DataService
 2. Run `dotnet ef migrations add "<Migration description>" --startup-project ..\SystemMonitor.<Startup project>`
-3. Run `dotnet ef database update --startup-project ..\SystemMonitor.<Startup project>` 
+3. Run `dotnet ef database update --startup-project ..\SystemMonitor.<Startup project>`
 
 ### Feature improvements
 

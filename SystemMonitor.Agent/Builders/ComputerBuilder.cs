@@ -4,18 +4,9 @@ using SystemMonitor.Models.Dtos;
 
 namespace SystemMonitor.Agent.Builders;
 
-
 public class ComputerBuilder(IEnumerable<IMetricCollector> collectors)
 {
-    /// <summary>
-    /// The list of collectors that will be used to collect metrics.
-    /// </summary>
     private readonly ComputerMetricsDto _metrics = new();
-
-    /// <summary>
-    /// It collects metrics from all collectors and returns the metrics.
-    /// </summary>
-    /// <returns></returns>
 
     public async Task<ComputerDetailsDto> BuildAsync()
     {

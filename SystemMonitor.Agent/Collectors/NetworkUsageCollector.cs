@@ -26,5 +26,4 @@ public class NetworkUsageCollector : IMetricCollector
             Console.WriteLine($"Error collecting Network usage: {ex.Message}");
         }
     }
-    
 }

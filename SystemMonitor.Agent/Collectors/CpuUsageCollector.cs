@@ -6,7 +6,7 @@ namespace SystemMonitor.Agent.Collectors;
 public class CpuUsageCollector : IMetricCollector
 {
     private static readonly PerformanceCounter CpuCounter = new("Processor", "% Processor Time", "_Total");
-    
+
     public void Collect(ComputerMetricsDto metrics)
     {
         try

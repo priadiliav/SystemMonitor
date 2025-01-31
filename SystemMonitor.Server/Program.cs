@@ -1,15 +1,7 @@
-using Confluent.Kafka;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
-using SystemMonitor.Auth.Extentions;
 using SystemMonitor.DataService.Contracts;
-using SystemMonitor.DataService.Data;
 using SystemMonitor.DataService.Repositories;
-using SystemMonitor.MessageBroker;
-using SystemMonitor.MessageBroker.Kafka;
-using SystemMonitor.Models.Configs;
-using SystemMonitor.Models.Dtos;
+using SystemMonitor.Security;
+using SystemMonitor.Server.Extentions;
 using SystemMonitor.Server.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,41 +12,19 @@ builder.Services.AddLogging(config =>
     config.AddConsole();
 });
 
-
-// Authentication
-builder.Services.AddJwtAuthentication(builder.Configuration);
-builder.Services.Configure<KafkaConsumerSettings>(builder.Configuration.GetSection("Kafka"));
-
-var dbConnectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddDbContext<AppDbContext>(
-    option => option.UseNpgsql(dbConnectionString));
-
+builder.Services.CustomCors();
+builder.Services.AddJwt(builder.Configuration);
+builder.Services.AddPostgresDb(builder.Configuration);
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.AddScoped<IDecryptor, Decryptor>();
+builder.Services.AddScoped<IEncryptor, Encryptor>();
+
 builder.Services.AddScoped<IComputerDetailsRepository, ComputerDetailsRepository>();
 builder.Services.AddScoped<IComputerMetricsRepository, ComputerMetricsRepository>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<ComputerService>();
 
-builder.Services.AddScoped<IKafkaHandler<string, ComputerDetailsDto>, ComputerHandler>();
-builder.Services.AddSingleton<IKafkaConsumer<string, ComputerDetailsDto>>(sp =>
-{
-    var kafkaSettings = sp.GetRequiredService<IOptions<KafkaConsumerSettings>>().Value;
-    var config = new ConsumerConfig
-    {
-        BootstrapServers = kafkaSettings.BootstrapServers,
-        GroupId = kafkaSettings.GroupId,
-        AutoOffsetReset = Enum.Parse<AutoOffsetReset>(kafkaSettings.AutoOffsetReset, true)
-    };
-    var serviceScopeFactory = sp.GetRequiredService<IServiceScopeFactory>();
-   
-    return new KafkaConsumer<string, ComputerDetailsDto>(
-        config, 
-        serviceScopeFactory, 
-        null, 
-        kafkaSettings.Topic);
-});
-
-builder.Services.AddHostedService<ComputerConsumer>();
+builder.Services.AddKafkaComputerHandler(builder.Configuration);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -67,11 +37,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-// For now, we don't need HTTPS
-//app.UseHttpsRedirection();
+app.UseCors();
 
 app.UseAuthentication();
 app.UseAuthorization();
+
+app.MigrateDatabase();
 
 app.MapControllers();
 app.Run();

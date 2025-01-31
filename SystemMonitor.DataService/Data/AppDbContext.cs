@@ -2,11 +2,13 @@
 using SystemMonitor.Models.Entities;
 
 namespace SystemMonitor.DataService.Data;
+
 public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options)
 {
     public virtual DbSet<User> Users { get; set; }
     public virtual DbSet<ComputerDetails> ComputerDetails { get; set; }
     public virtual DbSet<ComputerMetrics> ComputerMetrics { get; set; }
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
@@ -34,7 +36,6 @@ public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(op
         var entries = ChangeTracker.Entries<BaseEntity>();
 
         foreach (var entry in entries)
-        {
             if (entry.State == EntityState.Added)
             {
                 entry.Entity.CreatingDateTime = DateTime.UtcNow;
@@ -44,7 +45,6 @@ public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(op
             {
                 entry.Entity.UpdatingDateTime = DateTime.UtcNow;
             }
-        }
 
         return base.SaveChanges();
     }
@@ -54,7 +54,6 @@ public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(op
         var entries = ChangeTracker.Entries<BaseEntity>();
 
         foreach (var entry in entries)
-        {
             if (entry.State == EntityState.Added)
             {
                 entry.Entity.CreatingDateTime = DateTime.UtcNow;
@@ -64,7 +63,6 @@ public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(op
             {
                 entry.Entity.UpdatingDateTime = DateTime.UtcNow;
             }
-        }
 
         return await base.SaveChangesAsync(cancellationToken);
     }

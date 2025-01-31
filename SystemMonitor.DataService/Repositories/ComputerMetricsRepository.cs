@@ -1,10 +1,11 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using SystemMonitor.DataService.Contracts;
 using SystemMonitor.DataService.Data;
 using SystemMonitor.Models.Entities;
-using Microsoft.EntityFrameworkCore;
 
 namespace SystemMonitor.DataService.Repositories;
+
 public class ComputerMetricsRepository(AppDbContext appDbContext, ILogger<ComputerMetricsRepository> logger)
     : GenericRepository<ComputerMetrics>(appDbContext, logger), IComputerMetricsRepository
 {
@@ -14,9 +15,9 @@ public class ComputerMetricsRepository(AppDbContext appDbContext, ILogger<Comput
         {
             return await DbSet.FirstOrDefaultAsync(x => x.ComputerDetailsId == computerDetailsId);
         }
-        catch(Exception ex)
+        catch (Exception ex)
         {
-            Logger.LogError(ex, "Error occured"); 
+            Logger.LogError(ex, "Error occured");
             throw;
         }
     }
@@ -35,14 +36,13 @@ public class ComputerMetricsRepository(AppDbContext appDbContext, ILogger<Comput
             result.RamUsage = entity.RamUsage;
             result.NetworkUsage = entity.NetworkUsage;
             result.UpdatingDateTime = DateTime.Now;
-            
+
             return true;
         }
-        catch(Exception ex)
+        catch (Exception ex)
         {
             Logger.LogError(ex, "Error occured");
             throw;
         }
     }
-
 }
